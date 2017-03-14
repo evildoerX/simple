@@ -13,6 +13,7 @@
 					</el-menu-item>
 				</el-submenu>
 				<el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path">
+					<i :class="item.iconCls">{{item.children[0].name}}</i>
 				</el-menu-item>
 			</template>
 		</el-menu>
