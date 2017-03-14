@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
 	<aside class="sidebar">
 		<p class="menu-label">
       		服务或者项目名称
@@ -13,7 +13,6 @@
 					</el-menu-item>
 				</el-submenu>
 				<el-menu-item v-if="item.leaf&&item.children.length>0" :index="item.children[0].path">
-					<i :class="item.iconCls"></i>
 					{{item.children[0].name}}
 				</el-menu-item>
 			</template>
@@ -61,4 +60,4 @@
     font-size: 14px;
   }
 }
-</style> -->
+</style>
