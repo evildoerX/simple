@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 	<aside class="sidebar">
 		<p class="menu-label">
       		服务或者项目名称
@@ -61,4 +61,4 @@
     font-size: 14px;
   }
 }
-</style>
+</style> -->
